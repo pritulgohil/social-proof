@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.main{
+    height:100vh;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.content{
+    display: flex;
+    gap:100px;
+    height:50vh;
+}
+
+.side1{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.side2{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;}
+h2{
+    font-size: 4rem;
+    color:hsl(300, 43%, 22%);
+}
+
+.side1 p{
+    margin-top: 30px;
+    line-height: 1.5;
+    color:hsl(303, 10%, 53%);
+    font-weight: 500;
+}
+
+.label{
+    display: flex;
+    gap:20px;
+    justify-content: flex-start;
+    align-items: center;
+    padding:15px 0 15px 20px;
+    width:330px;
+    border-radius: 10px;
+    background-color: hsl(300, 24%, 96%);
+}
+
+.label p{
+    font-weight: 700;
+    color:hsl(300, 43%, 22%);
+}
+
+.space{
+    margin-top: 50px;
+}
+
+.left2{
+    margin-left: 26%;
+}
+
+.left3{
+    margin-left: 43%;
+}
+
+.content1{
+    height:50vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1{
+    height:200px;
+    width: 30%;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    gap:30px;
+    padding:5%;
+}
+
+.profile img{
+    width:50px;
+    border-radius: 100px;
+}
+
+.profile h3{
+    color:white;
+}
+
+.profile p{
+    color:white;
+    margin-top:10px;
+}
+
+.details{
+    padding:0 5% 5% 5%;
+}
+
+.details p{
+    color:white;
+    line-height: 1.5;
+}
+
+.card2{
+    margin-top: 5%;
+}
+
+.card3{
+    margin-top: 10%;
+}
+
+.bg{
+    position: absolute;
+}
+
+@media only screen and (max-width: 810px){
+    .content{
+        flex-direction: column;
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .side1{
+        width:100%;
+        text-align: center;
+    }
+
+    .side2{
+        width:100%;
+        align-items: center;
+    }
+
+    .label{
+        width:60%;
+        margin: 4% 0 0 0;
+        text-align: center;
+        padding:10px 20px 10px 20px;
+    }
+
+    .left1, .left2, .left3{
+        justify-content: center;
+
+    }
+
+    .content1{
+        flex-direction: column;
+        align-items: center;
+        width:100%;
+        height:unset;
+        margin-top:50px;
+    }
+
+    .box1{
+        width:70%;
+    }
+
+    .card3{
+        margin-top:40px;
+    }
+}
